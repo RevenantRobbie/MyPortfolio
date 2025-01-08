@@ -1,3 +1,30 @@
+body {
+    color: #cbcbcb;
+    background-color: black;
+}
+
 h1 {
-    color:deepskyblue
+    color:deepskyblue;
+    padding: 0.25rem;
+}
+
+h4 {
+    color: rgba(203,203,203,0.75);
+}
+
+.paragraphHeads{
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.intro-section{
+    align-items: center;
+    gap: 3rem;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: red;
+}
+
+.title{
+    margin-bottom: -1.5rem;
 }
