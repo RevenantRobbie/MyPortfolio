@@ -12,6 +12,19 @@ h4 {
     color: rgba(203,203,203,0.75);
 }
 
+.imgLayout{
+    display:flex;
+    align-items: flex-end;
+}
+
+.imgOfSelf{
+    width: 30% ;
+    height: 30% ;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    border-radius: 1rem;
+}
+
 .paragraphHeads{
     border-radius: 20px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.25);
@@ -26,5 +39,5 @@ h4 {
 }
 
 .title{
-    margin-bottom: -1.5rem;
+    margin-bottom: -0.5rem;
 }
