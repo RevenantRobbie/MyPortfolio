@@ -1,4 +1,86 @@
+
 body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: cornflowerblue;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: block;
+    height: 5%;
+}
+
+li {
+    display: inline;
+}
+
+.navbarLink{
+    margin-left: 5px;
+    padding-right: 25px;
+    color: inherit;
+    text-decoration: inherit;
+    background-color: inherit;
+}
+
+.navbarLink:hover{
+    margin-left: 5px;
+    padding-right: 25px;
+    color: inherit;
+    text-decoration: inherit;
+    background-color: azure;
+}
+
+.title{
+    padding-left: 5%;
+    font-weight: bolder;
+}
+
+.body {
+    padding-top: 125px;
+    padding-left: 10px;
+}
+
+.imageOfSelfContainer {
+    padding-left: 50px;
+    display:flex;
+    align-items: flex-start;
+    height: 100%;
+    margin-bottom: 3rem;
+}
+
+.imageOfSelf {
+    width: 400px ;
+    height: 70% ;
+    margin-left: 7%;
+    margin-right: 0.25rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px #ffffff;
+}
+
+.descriptionOfSelf {
+    padding-left: 15px;
+    color: gray;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+.skillImage {
+    width: 100px;
+    height: 100px;
+}
+
+/* body {
     color: #cbcbcb;
     background-color: black;
 }
@@ -58,4 +140,4 @@ h4 {
 .title{
     max-width: 5rem;
     margin-bottom: -0.5rem;
-}
+} */
